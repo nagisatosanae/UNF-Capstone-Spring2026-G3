@@ -1,4 +1,4 @@
-# UNF-Capstone-Spring2026-G1
+# UNF-Capstone-Spring2026
 
 
 ## 1. Problem Definition
