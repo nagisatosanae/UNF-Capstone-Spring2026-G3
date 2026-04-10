@@ -1,10 +1,10 @@
-# UNF-Capstone-Spring2026
+# UNF-Capstone-Spring-2026
 
 ## 1. Problem Definition
 
 This dataset is being considered for a capstone project focused on mortgage lending analytics. The problem is to understand which borrower, loan, and geographic factors may be associated with mortgage application outcomes.
 
-The goal of the project is to analyze mortgage lending patterns and determine whether a sample of mortgage application data can be used for exploratory analysis and possible predictive modeling of approval and denial outcomes.
+The goal of the project is to analyze mortgage lending patterns and determine whether HMDA mortgage application data can support exploratory analysis and possible predictive modeling of approval and denial outcomes.
 
 This project supports decision-making in lending analytics, mortgage market analysis, and policy review. It can help identify patterns in mortgage approvals and denials across different applicant and loan characteristics.
 
@@ -21,7 +21,7 @@ The dataset used in this folder is based on the **Home Mortgage Disclosure Act (
   Official source: https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024
 
 - **Number of samples and features:**  
-  The original 2024 HMDA dataset contains millions of mortgage application records and many variables related to applicant demographics, loan characteristics, property information, lender identifiers, and geography. This folder contains a sample CSV version prepared for dataset review and initial project exploration.
+  The original 2024 HMDA dataset contains millions of mortgage application records and many variables related to applicant demographics, loan characteristics, property information, lender identifiers, and geography. This folder currently contains a sample CSV file prepared for dataset review and initial project exploration.
 
 - **Target variable (if applicable):**  
   A likely target variable for future modeling is `action_taken`, which can be used to study mortgage application outcomes such as approved/originated versus denied.
@@ -133,4 +133,6 @@ This section will provide recommendations after the final results are available.
 ```bash
 hmda/
 ├── README.md
-└── hmda_2024_sample.csv
+├── hmda_2024_sample.csv
+├── HMDA_LAR_Data_Fields_Definitions.pdf
+└── Public_LAR_Schema.pdf
