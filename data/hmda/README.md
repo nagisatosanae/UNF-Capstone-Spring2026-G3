@@ -128,8 +128,3 @@ This section will provide recommendations after the final results are available.
 ---
 
 ## 9. Project Structure
-
-hmda/
-├── README.md
-├── raw/                # Original HMDA dataset files
-├── processed/          # Cleaned or transformed files if used later
