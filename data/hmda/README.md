@@ -4,7 +4,7 @@
 
 This dataset is being considered for a capstone project focused on mortgage lending analytics. The problem is to understand which borrower, loan, and geographic factors may be associated with mortgage application outcomes.
 
-The goal of the project is to analyze mortgage lending patterns and determine whether mortgage application data can be used to support predictive analysis of approval and denial outcomes.
+The goal of the project is to analyze mortgage lending patterns and determine whether a sample of mortgage application data can be used for exploratory analysis and possible predictive modeling of approval and denial outcomes.
 
 This project supports decision-making in lending analytics, mortgage market analysis, and policy review. It can help identify patterns in mortgage approvals and denials across different applicant and loan characteristics.
 
@@ -14,23 +14,24 @@ This problem is important because mortgage decisions affect access to housing, c
 
 ## 2. Dataset
 
-The dataset used in this folder is the **Home Mortgage Disclosure Act (HMDA) Loan/Application Records (LAR)** dataset.
+The dataset used in this folder is based on the **Home Mortgage Disclosure Act (HMDA) Loan/Application Records (LAR)** dataset.
 
 - **Source of data:**  
   FFIEC / CFPB HMDA Data  
   Official source: https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024
 
 - **Number of samples and features:**  
-  The 2024 HMDA dataset contains millions of mortgage application records and many variables related to applicant demographics, loan characteristics, property information, lender identifiers, and geography. The dataset file stored in this folder is the CSV version prepared for project use.
+  The original 2024 HMDA dataset contains millions of mortgage application records and many variables related to applicant demographics, loan characteristics, property information, lender identifiers, and geography. This folder contains a sample CSV version prepared for dataset review and initial project exploration.
 
 - **Target variable (if applicable):**  
   A likely target variable for future modeling is `action_taken`, which can be used to study mortgage application outcomes such as approved/originated versus denied.
 
 - **Data limitations:**  
+  - This folder contains a sample of the original HMDA dataset, not the full dataset.
   - Some fields may contain missing, exempt, or not-applicable values.
   - Some variables may require recoding before analysis.
   - Sensitive demographic variables must be interpreted carefully.
-  - Due to the size of the dataset, processing may require filtering, sampling, or efficient data handling methods.
+  - Results based on the sample may not fully represent the complete dataset.
 
 ---
 
@@ -128,3 +129,8 @@ This section will provide recommendations after the final results are available.
 ---
 
 ## 9. Project Structure
+
+```bash
+hmda/
+├── README.md
+└── hmda_2024_sample.csv
