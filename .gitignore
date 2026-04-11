@@ -11,8 +11,3 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (too large for git)
-data/raw/
-data/parquet/
-*.json
-*.parquet
