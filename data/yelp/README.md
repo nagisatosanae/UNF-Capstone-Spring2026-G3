@@ -38,7 +38,6 @@ We plan to explore what textual factors in online reviews most significantly inf
 | `business.json` | 150,346 | 113 MB | business_id, name, address, city, state, **latitude/longitude**, **stars**, review_count, **categories**, attributes, hours |
 | `tip.json` | 908,915 | 172 MB | text, date, compliment_count, business_id, user_id |
 | `checkin.json` | 131,930 | 274 MB | business_id, date (check-in timestamps) |
-| `photo.json` | 200,100 | - | photo_id, business_id, caption, label |
 
 ### Files Used for This Project
 
